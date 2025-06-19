@@ -107,5 +107,7 @@ Acknowledgements
 Developed as part of the Neurix Full-Stack SDE Internship Assignment.
 
 Jaiadithya A
+
 email : jaiadithya2020@gmail.com
+
 GitHub: github.com/your-username
