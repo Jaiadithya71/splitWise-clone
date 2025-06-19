@@ -19,7 +19,9 @@ A full-stack expense-splitting web application inspired by Splitwise. Built usin
 
 splitwise-clone/
 ├── backend/ # FastAPI backend
+
 │ ├── app/ # Routers, models, database, etc.
+
 │ ├── Dockerfile
 │ └── requirements.txt
 │
