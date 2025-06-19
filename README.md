@@ -32,7 +32,6 @@ splitwise-clone/
 ├── docker-compose.yml # Docker services (backend, frontend, DB)
 └── README.md # Project overview
 
-
 ---
 
 Getting Started:
