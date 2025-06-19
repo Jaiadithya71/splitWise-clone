@@ -81,11 +81,15 @@ User APIs
 POST /users - Create user
 GET /users/{user_id}/balances - View user's balances across groups.
 
-Functional Assumptions
+# Functional Assumptions:
 No authentication system included
+
 Users and groups are managed freely
+
 Expenses split either equally or by custom %/₹ amount
+
 Groups can be deleted only when all balances are cleared
+
 
 Tech Stack:
 | Layer            | Technology                  |
