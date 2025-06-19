@@ -23,25 +23,35 @@ splitwise-clone/
 │ ├── app/ # Routers, models, database, etc.
 
 │ ├── Dockerfile
+
 │ └── requirements.txt
+
 │
+
 ├── frontend/ # React frontend
+
 │ ├── src/
+
 │ ├── Dockerfile
+
 │ ├── package.json
+
 │ └── tailwind.config.js
+
 │
+
 ├── docker-compose.yml # Docker services (backend, frontend, DB)
+
 └── README.md # Project overview
 
 ---
 
-Getting Started:
+# Getting Started:
 1. Prerequisites
 - [Docker](https://www.docker.com/)
 - [Docker Compose](https://docs.docker.com/compose/)
 
-# 2. Run Locally
+2. Run Locally
 Clone the repository and run:
 
 git clone https://github.com/your-username/splitwise-clone.git
@@ -55,11 +65,17 @@ Backend API: http://localhost:8000/docs
 API Endpoints
 Group APIs
 POST /groups - Create a new group
+
 GET /groups - Get all groups
+
 GET /groups/{group_id} - Group details
+
 POST /groups/{group_id}/expenses - Add expense to group
+
 GET /groups/{group_id}/balances - Balances within group
+
 DELETE /groups/{group_id} - Delete group (only if settled)
+
 
 User APIs
 POST /users - Create user
